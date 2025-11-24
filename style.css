@@ -1,0 +1,78 @@
+body{
+    background-image: url("img/669303.png");
+    background-size: cover;
+    background-position: 50%;
+    background-color: black;
+    justify-items: center;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;    
+    justify-content: center;
+    text-align: center;
+    min-width: 1024px;
+    width: 100%    
+}
+
+.main-container{
+    max-width: 100%;
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center; 
+    align-items: center;
+    margin: auto;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+h1{
+    text-shadow: 1px 1px 0px #000000;
+    color: white;
+    margin: 5px 5px;
+}
+
+p{
+    font-style: times new roman;
+    text-shadow: 1px 1px 0px #000000;
+    color: yellow;
+    font-size: 12vh;
+    margin-bottom: 10px;
+}
+
+span{
+    display: flexbox;
+    text-shadow: 1px 1px 0px #000000;
+    font-style: times new roman;
+    color: rgb(255, 255, 255);
+    font-size: 2vh;
+}
+
+.contener{
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.025);
+    padding: 20px;
+    border-radius: 15px;
+    width: 100px;
+    min-width: 20px;
+    backdrop-filter: blur(4px);
+    border: 20px solid rgba(255, 255, 255, 0.012);
+    box-shadow: 4px 4px 0px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease; 
+}
+
+.contener:hover{
+    transform: translateY(-8px);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/*burbujas//
+
